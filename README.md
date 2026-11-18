@@ -19,6 +19,7 @@ The system aims to make driver safety technology affordable and accessible witho
 - **Staged Buzzer Alerts:** Different alert patterns for partial drowsiness, full drowsiness, and distraction.
 - **Sensor Failure Handling:** Supports fallback modes when one of the sensors becomes unavailable.
 - **False Alarm Reduction:** Uses time-based scoring, filtering, and hysteresis to distinguish normal movements from risky behavior.
+- **Tiny ML:** which processes sensor and EAR data rather than fixed hardcoded values.
 
 ## Hardware & Technologies
 
