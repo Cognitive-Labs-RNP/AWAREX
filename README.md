@@ -6,7 +6,7 @@
 
 AWAREX is a low-cost, externally installable driver monitoring system designed to detect **drowsiness and driver distraction** in buses, trucks, auto-rickshaws, and other small vehicles.
 
-Unlike traditional systems that rely on a single sensor, AWAREX combines camera-based facial analysis with a neck-mounted motion sensor to monitor eye closure, head direction, and posture. An ESP32 processes sensor data and triggers distinct, staged buzzer alerts to warn drivers.
+Unlike traditional systems that rely on a single sensor, AWAREX combines camera-based facial analysis with a neck-mounted motion sensor to monitor eye closure, head direction, and posture. A tinyML model deployed on  ESP32 processes sensor and EAR data  from Open CV  and triggers distinct, staged buzzer alerts to warn drivers.
 
 The system aims to make driver safety technology affordable and accessible without requiring vehicle integration or uncomfortable face-worn devices.
 
